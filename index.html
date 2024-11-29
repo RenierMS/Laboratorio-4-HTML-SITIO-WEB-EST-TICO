@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Título principal -->
+    <h1>Mi Primer Sitio Web</h1>
     
+    <!-- Subtítulo y párrafo con información personal -->
+    <h2>Acerca de mí</h2>
+    <p>Hola, soy un estudiante de desarrollo web. Estoy aprendiendo a crear sitios web y este es mi primer proyecto en HTML, CSS y JavaScript.</p>
+
+    <!-- Imagen personal -->
+    <img src="mi-imagen.jpg" alt="Imagen personal" width="200" height="200">
+
+    <!-- Enlaces a redes sociales -->
+    <h3>Conéctame en mis redes sociales:</h3>
+    <a href="https://www.facebook.com/mi_perfil" target="_blank">Facebook</a><br>
+    <a href="https://www.instagram.com/mi_perfil" target="_blank">Instagram</a><br>
+    <a href="https://www.linkedin.com/in/mi_perfil" target="_blank">LinkedIn</a>
+
+    <!-- Lista de hobbies -->
+    <h2>Mis Hobbies</h2>
+    <ul>
+        <li>Leer libros</li>
+        <li>Jugar videojuegos</li>
+        <li>Hacer ejercicio</li>
+    </ul>
+
+    <!-- Lista ordenada de tareas prioritarias -->
+    <h2>Tareas Prioritarias</h2>
+    <ol>
+        <li>Estudiar HTML y CSS</li>
+        <li>Terminar el proyecto de JavaScript</li>
+        <li>Preparar presentación para la clase</li>
+    </ol>
+
+    <!-- Tabla de horario semanal -->
+    <h2>Horario Semanal</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Hora/Día</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 - 12:00</td>
+                <td>Estudiar</td>
+                <td>Ejercicio</td>
+                <td>Estudiar</td>
+                <td>Ejercicio</td>
+                <td>Reunión de trabajo</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <td>12:00 - 14:00</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Almuerzo</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <td>14:00 - 18:00</td>
+                <td>Estudiar</td>
+                <td>Trabajo</td>
+                <td>Estudiar</td>
+                <td>Trabajo</td>
+                <td>Proyecto personal</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Formulario de contacto -->
+    <h2>Contáctame</h2>
+    <form id="contactForm">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+
+        <label for="motivo">Motivo del contacto:</label><br>
+        <input type="text" id="motivo" name="motivo" placeholder="¿Por qué deseas contactarme?" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
